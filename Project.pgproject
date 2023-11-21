@@ -1,0 +1,20 @@
+{
+  "Services": [
+    {
+      "IsEnabled": true,
+      "CSProjectFile": "YodiDeskWeb.Service\\YodiDeskWeb.Service.csproj",
+      "ServiceHost": "DotNet",
+      "Containerization": "None",
+      "ContainerOptions": {},
+      "Builds": [
+        {
+          "Build": "AnyCpu",
+          "AssemblyFilePath": "YodiDeskWeb.Service\\bin\\%BUILD%\\publish\\anycpu\\YodiDeskWeb.Service.dll",
+          "BuildCommands": [
+            "dotnet publish --configuration %BUILD%  --no-self-contained -p:GlowPublishing=true -o \"bin\\%BUILD%\\publish\\anycpu\" \"$ProjectName$\""
+          ]
+        }
+      ]
+    }
+  ]
+}

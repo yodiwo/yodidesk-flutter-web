@@ -1,0 +1,46 @@
+# Visual Studio related
+.vs/
+.sonarqube/
+*.user
+*.userprefs
+*.sfk
+*.pdb
+*.suo
+project.lock
+project.lock.json
+*.sln.docstates
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+[Bb]in/
+[Oo]bj/
+
+# Except this
+!Packaging/*
+!*.action
+
+# NuGet Packages Directory
+.nuget
+packages/
+
+# MSTest test Results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+#NUNIT
+*.VisualState.xml
+TestResult.xml
+
+# Visual C++ cache files
+ipch/
+*.aps
+*.ncb
+*.opensdf
+*.sdf
+*.cachefile
+
+# Visual Studio profiler
+*.psess
+*.vsp
+*.vspx
