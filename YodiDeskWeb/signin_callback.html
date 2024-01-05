@@ -12,7 +12,13 @@
 <body>
 </body>
 <script>
-    window.opener.postMessage(window.location.href, '*');
+    function postAuthenticationMessage() {
+    if (window.opener) {
+      window.opener.postMessage(window.location.href, window.location.origin);
+      window.close();
+    }
+  }
+  postAuthenticationMessage();
 </script>
 
 </html>
