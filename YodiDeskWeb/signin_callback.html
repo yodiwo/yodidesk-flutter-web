@@ -13,11 +13,8 @@
 </body>
 <script>
     function postAuthenticationMessage() {
-    const message = {
-      'auth': window.location.href
-    };
     if (window.opener) {
-      window.opener.postMessage(message, window.location.origin);
+      window.opener.postMessage(window.location.href, window.location.origin);
       window.close();
     }
   }
