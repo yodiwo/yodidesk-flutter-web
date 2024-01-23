@@ -2,6 +2,9 @@
 <html>
 <head>
   <style>
+    body {
+         background-color: rgb(73, 79, 105);
+      }
     div {
       position: absolute;
       margin: auto;
@@ -10,9 +13,11 @@
       bottom: 0;
       left: 0;
       width: 200px;
-      height: 200px;
+      height: 30px;
     }
   </style>
+
+
 
 
   <!--
@@ -48,18 +53,18 @@
 
   <script>
     // The value below is injected by flutter build, do not touch.
-    const serviceWorkerVersion = "1007475427";
+    const serviceWorkerVersion = "3544640894";
   </script>
   <!-- This script adds the flutter initialization JS code -->
   <script src="flutter.js" defer></script>
 </head>
 <body>
-  <div id="loading"></div>
+  <div id="loading" style="color: white; font-size: 26px; font-family: 'Lucida Sans Unicode', sans-serif"></div>
   <script>
     window.addEventListener('load', function(ev) {
 
       var loading = document.querySelector('#loading');
-      loading.textContent = "Loading ...";
+      loading.textContent = "l o a d i n g  . . .";
 
       // Download main.dart.js
       _flutter.loader.loadEntrypoint({
