@@ -1,6 +1,6 @@
 {
-    "name": "YodiDesk Booking",
-    "short_name": "YodiDesk Booking",
+    "name": "YodiDesk Desk Booking",
+    "short_name": "YodiDesk Desk Booking",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",
