@@ -8,3 +8,4 @@ using Phoesion.Glow.SDK.Firefly;
 [assembly: ServiceName("YodiDeskWeb")]
 [assembly: IsStaticFileService]
 [assembly: ResourceNotFoundFallbackPolicy("wwwroot/index.html", ResponseCode = HttpStatusCode.OK)]
+[assembly: StaticFileHeader("*", "X-FRAME-OPTIONS", "SAMEORIGIN")]
